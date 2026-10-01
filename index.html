@@ -22,7 +22,7 @@
   <main>
     <h1>Picklist</h1>
     <h2>Privacy Policy</h2>
-    <p class="meta">Effective 30 September 2026 · Developer: Namaki Software Group · Package: com.namaki.picklist</p>
+    <p class="meta">Effective 1 October 2026 · Developer: Namaki Software Group · Package: com.namaki.picklist</p>
 
     <section>
       <p>Picklist is a fully offline shopping-list app for Android. This policy explains how the app handles your information.</p>
@@ -32,21 +32,29 @@
 
       <h3>Data stored on your device</h3>
       <ul>
-        <li>Your lists, items, quantities, prices and optional currency label are stored only in the app's local storage on your device.</li>
+        <li>Your lists, items, quantities, prices, optional name and app settings (such as the currency label) are stored only in the app's local storage on your device.</li>
         <li>Your 4-digit PIN is never stored. Only a one-way (SHA-256) hash of it is kept in the device's secure storage.</li>
-        <li>This data never leaves your device through the app.</li>
+        <li>This data leaves your device only if you choose to share a list (see below).</li>
+      </ul>
+
+      <h3>Sharing lists</h3>
+      <ul>
+        <li>You can share a list or its purchases as a <b>.picklist</b> file. The app creates the file on your device and hands it to the app you pick, for example WhatsApp, Bluetooth or email. We never receive it.</li>
+        <li>A list file contains the list name, items, quantities, planned prices, your name (if you set one) and the share date. A purchases file also contains which items were bought and the prices paid.</li>
+        <li>The file is encoded so it is not easy to read, but it is <b>not encrypted</b>. Anyone who has the file and the means to decode it can read it. Share only with people you trust.</li>
+        <li>When you open a .picklist file, the app reads it only after you unlock with your PIN, and changes your lists only after you confirm.</li>
       </ul>
 
       <h3>Internet, third parties and permissions</h3>
       <ul>
         <li>The app works without internet and makes no network requests.</li>
         <li>No accounts, advertising, analytics, crash reporting or third-party SDKs that collect data.</li>
-        <li>The app requests no special Android permissions.</li>
+        <li>The app requests no special Android permissions. It opens files only when you share or open them with Picklist.</li>
         <li>Tapping the privacy-policy link in Settings opens this page in your browser, outside the app.</li>
       </ul>
 
       <h3>Deleting your data</h3>
-      <p>Use <b>Settings → Reset app</b> (or <b>Forgot PIN?</b> on the lock screen), clear the app's storage in Android settings, or uninstall the app. All data is removed permanently. Because nothing is stored elsewhere, it cannot be recovered.</p>
+      <p>Use <b>Settings → Reset app</b> (or <b>Forgot PIN?</b> on the lock screen), clear the app's storage in Android settings, or uninstall the app. All data is removed permanently. Because nothing is stored elsewhere, it cannot be recovered. Files you already shared stay with the people you sent them to.</p>
 
       <h3>Children</h3>
       <p>The app collects no data from anyone, including children.</p>
